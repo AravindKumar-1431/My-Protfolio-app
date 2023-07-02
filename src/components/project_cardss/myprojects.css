@@ -113,5 +113,20 @@
       border: 1px solid  white;
       background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
       margin:auto}
+
+      .work-container{
+        position: relative;
+
+        left: 40px;
+          }
+
+
+          .btn1{
+ 
+           
+            position: relative;
+
+            left:100px;
+        }
       
-       }
+        }
