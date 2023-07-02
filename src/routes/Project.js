@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Heroproject from '../components/project'
-import Footer from "../components/footer"
-import Myprojects from '../components/myprojects'
+import Navbar from '../components/navBar/Navbar'
+import Heroproject from '../components/project_header/project'
+import Footer from "../components/footer/footer"
+import Myprojects from '../components/project_cardss/myprojects'
 const Project = () => {
   return (
     <div>

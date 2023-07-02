@@ -1,5 +1,5 @@
 import React from 'react'
-import'./Heroimg.css'
+import './Heroimg.css';
 import pimg from '../asessts/hand-man-using-laptop-computer-dark_141345-69.avif';
 import { Link } from 'react-router-dom';
 

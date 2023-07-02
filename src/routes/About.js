@@ -1,8 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-
-import Footer from "../components/footer"
-import Myresume from '../components/myresume'
+import Navbar from '../components/navBar/Navbar'
+import Footer from "../components/footer/footer"
+import Myresume from '../components/aboutme_resume/myresume'
 const About = () => {
   return (
     <div>

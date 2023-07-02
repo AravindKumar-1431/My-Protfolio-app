@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Heroproject from '../components/project'
-import Footer from "../components/footer"
+import Navbar from '../components/navBar/Navbar'
+import Heroproject from '../components/project_header/project'
+import Footer from "../components/footer/footer"
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./myprojects.css";
+import "../project_cardss/myprojects.css";
 import pro1 from '../asessts/gtp3.jpg'
 import pro2 from '../asessts/mymoviebook.jpg'
 import pro3 from '../asessts/zomatolanding.jpg'

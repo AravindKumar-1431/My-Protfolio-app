@@ -1,7 +1,7 @@
 import React from 'react'
 import pimg from '../asessts/finalfantasy16ambitiontrailer-ign-blogroll-1666275029916.jpg';
 
-import'./Heroimg';
+
 const myresume = () => {
   return (
     <div className="hero"> 
