@@ -1,11 +1,11 @@
 import React from 'react'
 import pimg from '../asessts/finalfantasy16ambitiontrailer-ign-blogroll-1666275029916.jpg';
-
+import'../aboutme_resume/myresume.css';
 
 const myresume = () => {
   return (
     <div className="hero"> 
-    <div className="mask1">
+    <div className="mask3">
     <img className="into-img"src={pimg} alt='heroimg'/>
     </div>
       <div className='content'>
@@ -16,7 +16,7 @@ const myresume = () => {
       
      
       <div className="bt1">
-      <a className='btn ' href='https://ibb.co/VNGwHr5'> My Resume</a>
+      <a className='btn' href='https://ibb.co/VNGwHr5'> My Resume</a>
       </div>
       </div>
      
