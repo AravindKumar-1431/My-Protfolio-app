@@ -1,0 +1,72 @@
+.footer{
+    padding: 6rem 0;
+    background-color: black;
+    width:100%;}
+    
+ 
+      
+
+   
+
+.footer-content{
+    margin: auto;
+    max-width:1140px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40%;
+     display: grid;
+  
+}
+
+.hicon{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.picon{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+.micon{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+
+@media screen and (max-width:700px) {
+    
+.footer-content{
+
+ justify-content: center;
+}
+.Sicons{
+    display: flex;
+}
+
+}
+
+@media screen and (max-width:852px) {
+    
+    .footer-content{
+    
+     justify-content: center;
+    }
+    .Sicons{
+        display: flex;
+    }
+    
+    }
+    
+
+ 

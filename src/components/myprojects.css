@@ -1,0 +1,117 @@
+.project-heading{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.work-container{
+          
+          
+  background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  }
+
+
+.btn1{
+ 
+    background: linear-gradient(90deg, rgba(42, 19, 146, 1) 0%, rgba(147, 112, 206, 1) 100%);
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    padding: 1rem;
+    margin:1.5rem;
+    text-align: center;
+    margin-left: 3rem;
+    font-weight: 600;
+    
+}
+  
+  .btn1-light{
+    background: transparent;
+    color: white;
+  }
+  
+  .btn1:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s;
+  }
+
+.project-container{
+    border: 2px solid  white;;
+   padding: 2rem;
+    
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20%;
+     display: grid;
+}
+
+.project-container img{
+    width: 100%;
+    border: 1px solid white;
+
+}
+
+.project-container div{
+    border: 1px solid white;
+
+}
+
+
+  .project-container h2{
+      margin :1rem;
+          }
+  .project-container p{
+     margin :1rem;
+       }
+
+       .project-container .btn1 {
+       margin-left: 4rem;
+        
+          }
+    
+       @media (max-width:950px){
+        .project-container{
+          border: 1px solid  white;;
+         padding: 1rem;
+          
+          margin: auto;
+          grid-template-columns: repeat(3,1fr);
+          grid-gap:10%;
+           display: grid;}
+           .work-container{
+          
+          
+            background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+            }
+
+
+       }
+
+       @media (max-width:850px){
+        .project-container{
+          border: 1px solid  white;;
+         padding: 1rem;
+          
+          margin: auto;
+          grid-template-columns: repeat(1,1fr);
+          grid-gap:0.4%;
+           display: grid;
+           
+      }
+      .project-container img{
+        width: 100%;
+       
+        justify-content: center;
+        align-items: center;
+       
+        padding: 1rem;
+    
+    }
+
+    .work-container{
+      align-items: center;
+      border: 1px solid  white;
+      background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+      margin:auto}
+      
+       }
