@@ -11,7 +11,7 @@ body{
   background-color:black;
 }
 
-h1,h4,p,a,h2,h3{
+h1,h4,p,a,h2,h3,h5{
   color:white;
   text-decoration: none;
  
@@ -25,17 +25,25 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: linear-gradient(90deg, rgba(42, 19, 146, 1) 0%, rgba(147, 112, 206, 1) 100%);
+  background: transparent;
   color: white;
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
 }
 
-.btn-light{
-  background: transparent;
+.btn2{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
   color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
 }
+
+
 
 .btn:hover{
   background: rgba(255, 255, 255, 0.2);

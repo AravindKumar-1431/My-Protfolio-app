@@ -12,15 +12,15 @@ const Heroimg = () => {
     </div>
       <div className='content'>
       <p> Hi, this is Aravind</p>
-      <h1>React Developer</h1>
-      
-      <div>
+      <h1 >React Developer</h1>
+       <div className='buttons'>
       <Link to="/project" className="btn">Projects</Link>
-      </div>
-      <div className='bt1'>
-      <Link to="/contact" className="btn btn-light">Contact</Link>
+      <Link to="/contact" className="btn2">Contact</Link>
       </div>
       </div>
+
+      
+     
      
     </div>
 

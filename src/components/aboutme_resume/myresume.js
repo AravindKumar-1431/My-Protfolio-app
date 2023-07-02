@@ -16,7 +16,7 @@ const myresume = () => {
       
      
       <div className="bt1">
-      <a className='btn' href='https://ibb.co/VNGwHr5'> My Resume</a>
+      <a className='btn' href='https://ibb.co/VNGwHr5'> <h4>My Resume</h4></a>
       </div>
       </div>
      

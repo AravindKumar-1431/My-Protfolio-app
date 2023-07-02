@@ -1,13 +1,15 @@
 .project-heading{
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;;
+    
 }
 
-.work-container{
+/* .work-container{
           
           
   background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-  }
+
+  } */
 
 
 .btn1{
@@ -36,12 +38,15 @@
   }
 
 .project-container{
-    border: 2px solid  white;;
-   padding: 2rem;
+    /* border: 2px solid  white; */
+    width: 100%;
+    height: 50%;
+ 
+ 
     
     margin: auto;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:20%;
+    grid-template-columns: repeat(4,1fr);
+   
      display: grid;
 }
 
@@ -53,6 +58,9 @@
 
 .project-container div{
     border: 1px solid white;
+    margin: 1rem;
+    
+ 
 
 }
 
@@ -60,22 +68,28 @@
   .project-container h2{
       margin :1rem;
           }
-  .project-container p{
+  .project-container h5{
      margin :1rem;
        }
 
        .project-container .btn1 {
-       margin-left: 4rem;
+       margin:0.5rem;
+       padding: 1rem;
+     position: relative;
+
+     left: 20%;
+
+       
         
           }
     
-       @media (max-width:950px){
+       @media screen and (max-width:970px){
         .project-container{
-          border: 1px solid  white;;
+          /* border: 1px solid  white;; */
          padding: 1rem;
           
           margin: auto;
-          grid-template-columns: repeat(3,1fr);
+          grid-template-columns: repeat(2,1fr);
           grid-gap:10%;
            display: grid;}
            .work-container{
@@ -87,9 +101,9 @@
 
        }
 
-       @media (max-width:850px){
+       @media (max-width:950px){
         .project-container{
-          border: 1px solid  white;;
+          /* border: 1px solid  white;; */
          padding: 1rem;
           
           margin: auto;
@@ -110,7 +124,7 @@
 
     .work-container{
       align-items: center;
-      border: 1px solid  white;
+      /* border: 1px solid  white; */
       background: radial-gradient(circle at 3% 35%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
       margin:auto}
 
