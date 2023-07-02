@@ -93,7 +93,13 @@ width: 65%;
         }
 
         
+        .btn{
     
+    
+            width: 100%;
+            margin:0.2rem;
+            align-items: center;
+        }
       
            
 }
