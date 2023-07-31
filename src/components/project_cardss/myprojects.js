@@ -5,7 +5,7 @@ import pro2 from "../asessts/mymoviebook.jpg";
 import pro3 from "../asessts/zomatolanding.jpg";
 import pro4 from "../asessts/dragon.jpg";
 import pro5 from "../asessts/todolsit.jpg";
-import pro6 from "../asessts/weather.jpg";
+import pro6 from "../asessts/Weatherapp.jpg";
 
 const myprojects = (props) => {
   const projectcards = [
