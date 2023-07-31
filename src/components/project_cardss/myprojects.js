@@ -70,10 +70,12 @@ const myprojects = (props) => {
       id: 6,
       name: "Weather-app",
       Image: pro6,
-      content: "this web app is designed by html,css,javascript",
-      btn1: <a href="https://graceful-strudel-b85523.netlify.app/">view</a>,
+      content: "this web app is designed by Reactjs",
+      btn1: <a href="https://mypredictweather.netlify.app/">view</a>,
       btn2: (
-        <a href="https://github.com/AravindKumar-1431/Weatherapp">Source</a>
+        <a href="https://github.com/AravindKumar-1431/Predictweather-Reactjs">
+          Source
+        </a>
       ),
     },
   ];
