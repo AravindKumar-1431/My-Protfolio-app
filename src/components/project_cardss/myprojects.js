@@ -71,9 +71,9 @@ const myprojects = (props) => {
       name: "Weather-app",
       Image: pro6,
       content: "this web app is designed by Reactjs",
-      btn1: <a href="https://mypredictweather.netlify.app/">view</a>,
+      btn1: <a href="https://myweatherpredict.netlify.app/">view</a>,
       btn2: (
-        <a href="https://github.com/AravindKumar-1431/Predictweather-Reactjs">
+        <a href="https://github.com/AravindKumar-1431/PredictWeatherapp-React">
           Source
         </a>
       ),
